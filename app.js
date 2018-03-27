@@ -11,11 +11,12 @@ const blogPage = document.getElementById("blogForm");
 		// this allowed the values inputed in the box to be recognized
 		console.log(newPost);
 // now lets add the inputed value into the HTML page so the user can see
-	let savedPost = document.getElementById('awesomePost') 
-	awesomePost.innerHTML += newPost
+	let savedPost = document.getElementById('individualPost') 
+	savedPost = " " + newPost + " ";
+	individualPost.innerHTML += savedPost
 
 	})
 
-// now lets add the inputed value into the HTML page so the user can see
+//text are showing in line - need to show as box
 
 
