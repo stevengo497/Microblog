@@ -9,14 +9,15 @@ const blogPage = document.getElementById("blogForm");
 		// this allowed the button to be used
 		let newPost = document.getElementById("inputBox").value;
 		// this allowed the values inputed in the box to be recognized
-		console.log(newPost);
+		// console.log(newPost);
 // now lets add the inputed value into the HTML page so the user can see
-	let savedPost = document.getElementById('individualPost') 
-	savedPost = " " + newPost + " ";
-	individualPost.innerHTML += savedPost
+	let savedPost = document.getElementById('awesomePost') 
+	savedPost.innerHTML += newPost
 
+	let bulletPoint = document.createElement("li");
+	let list = document.getElementById("awesomePost");
+	list.appendChild(bulletPoint);
+	// console.log(bulletPoint);
 	})
 
-//text are showing in line - need to show as box
-
-
+//text are showing in line - need to show as vertical when new post added (appendChild?????)
