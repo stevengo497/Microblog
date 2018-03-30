@@ -2,11 +2,33 @@ ul {
 	list-style-type: none;
 	text-align: center;
 	padding: 0px;
+	display: block;
 }
 
 h1 {
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+#backgroundImage {
+	background-image: url("Jellyfish.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	background-position: center;
+	padding: 0px;
+
+}
+
+#buttonPost {
+	margin: 10px 50%;
+	text-align: center;
+	display: inline-block;
+}
+.form-control {
+	margin: 50px 20%;
 }
 

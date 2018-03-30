@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Microblog</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+
+<body id="backgroundImage">
 	<h1>Micro Blog</h1>
-	<form id="blogForm" align="center">
-		<input type="text" name="" id="inputBox">
+<!-- 	<form id="blogForm" align="center">
+		<input type="text" name="" id="inputBox" placeholder="What do you have to say?">
 		<button type="submit" id="buttonPost">Post</button>
-	</form>
-<ul id="awesomePost">
-	<li id="individualPost"></li>
-</u1>
+	</form> -->
+
+<form id="blogForm">
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+  </div>
+  <input type="text" class="form-control" id="inputBox" aria-label="Default" placeholder="What do you want to say?" aria-describedby="inputGroup-sizing-default">
+</div>
+<button type="button" class="btn btn-success" id="buttonPost">Post</button>
+</form>
+</div>
+  <ul id="awesomePost">
+		<li id="individualPost"></li>
+	</u1>
+
+
 
 <script type="text/javascript" src="app.js"></script>
 </body>

@@ -15,9 +15,9 @@ const blogPage = document.getElementById("blogForm");
 	savedPost.innerHTML += newPost
 
 	let bulletPoint = document.createElement("li");
-	let list = document.getElementById("awesomePost");
-	list.appendChild(bulletPoint);
+	savedPost.appendChild(bulletPoint);
 	// console.log(bulletPoint);
+	// newPost
 	})
 
 //text are showing in line - need to show as vertical when new post added (appendChild?????)
