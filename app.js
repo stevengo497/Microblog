@@ -9,10 +9,14 @@ $(document).ready(function(event) {
 $('#blogForm').submit(function(event) {
 	event.preventDefault();
 
+
 $('#awesomePost').append("<li>" + ($('#inputBox').val()))
 
+$('#inputBox').val(" ");
 })
+
 })
+
 
 // const blogPage = document.getElementById("blogForm");
 

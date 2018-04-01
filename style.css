@@ -3,6 +3,8 @@ ul {
 	text-align: center;
 	padding: 0px;
 	display: block;
+	color: white;
+	margin: 10px auto;
 }
 
 h1 {
@@ -24,11 +26,17 @@ h1 {
 }
 
 #buttonPost {
-	margin: 10px 50%;
 	text-align: center;
-	display: inline-block;
+	display: block;
+	margin: 10px 48%;
 }
 .form-control {
 	margin: 50px 20%;
 }
 
+/*li {
+	color: white;
+	text-align: center;
+	display: block;
+	margin: 10px auto;
+}*/
